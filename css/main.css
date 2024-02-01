@@ -858,3 +858,11 @@ p {
         font-size: 108px;
     }
 }
+
+.footer-box {
+    background-color: #005dba;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
