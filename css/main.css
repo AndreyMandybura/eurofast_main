@@ -1,5 +1,6 @@
 :root {
     --main-font: "Montserrat", sans-serif;
+    --second-font: "Inter", sans-serif;
 }
 
 html {
@@ -56,10 +57,80 @@ p {
     width: 100%;
 }
 
+.hero-bg {
+    background-image: url(../images/hero_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 52px;
+    height: 560px;
+}
 
+@media screen and (min-width: 340px) {
+    .hero-bg {
+        height: 600px;
+    }
+}
 
+@media screen and (min-width: 375px) {
+    .hero-bg {
+        height: 650px;
+    }
+}
 
+.hero-photo {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 50px;
+}
 
+.hero-slogan-box {
+    width: 300px;
+    height: 120px;
+    border-radius: 42.46px;
+    background-color: #0B5FC0;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.hero-slogan {
+    width: 290px;
+    height: 120px;
+    border-radius: 42.46px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.hero-slogan-text {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #000;
+    text-align: center;
+}
+
+.hero-btn-box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-btn {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    background-color: #D12A2A;
+    border-radius: 10.69px;
+    border: none;
+    width: 270px;
+    height: 50px;
+}
 
 
 
