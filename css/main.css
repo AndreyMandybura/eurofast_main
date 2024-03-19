@@ -240,6 +240,7 @@ p {
     .hero-btn {
         width: 355px;
         height: 74px;
+        font-size: 20px;
     }
 }
 
