@@ -78,10 +78,63 @@ p {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .hero-bg {
+        height: 690px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-bg {
+        height: 800px;
+    }
+}
+
 .hero-photo {
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 50px;
+}
+
+@media screen and (min-width: 425px) {
+    .hero-photo {
+        width: 425px;
+        height: 391.2px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-photo {
+        width: 659px;
+        height: 522px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 80px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-photo {
+        width: 815px;
+        height: 644px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-position {
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-slogan-tumb {
+        position: absolute;
+        right: 0;
+        top: 45%;
+    }
 }
 
 .hero-slogan-box {
@@ -96,12 +149,57 @@ p {
     margin-top: 30px;
 }
 
+@media screen and (min-width: 1024px) {
+    .hero-slogan-box {
+        margin-top: 0;
+        width: 400px;
+        height: 130px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-slogan-box {
+        width: 740px;
+        height: auto;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+}
+
 .hero-slogan {
-    width: 290px;
+    width: 348px;
     height: 120px;
     border-radius: 42.46px;
     background-color: #ffffff;
     padding: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-slogan {
+        width: 390px;
+        height: 130px;
+        height: auto;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-slogan {
+        width: 720px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-slogan-img {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .hero-slogan-text {
@@ -111,6 +209,12 @@ p {
     letter-spacing: 0.02em;
     color: #000;
     text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-slogan-text {
+        font-size: 72.22px;
+    }
 }
 
 .hero-btn-box {
@@ -132,6 +236,12 @@ p {
     height: 50px;
 }
 
+@media screen and (min-width: 1440px) {
+    .hero-btn {
+        width: 355px;
+        height: 74px;
+    }
+}
 
 
 
