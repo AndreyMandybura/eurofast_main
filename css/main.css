@@ -302,6 +302,59 @@ p {
     }
 }
 
+.choice-box {
+    height: 116px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .choice-box {
+        height: 149px;
+    }
+}
+
+.choice-img {
+    width: 63px;
+    height: 45px;
+}
+
+@media screen and (min-width: 1440px) {
+    .choice-img {
+        width: 98px;
+        height: 61px;
+    }
+}
+
+.choice-text {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #000;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .choice-text {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .choice-text {
+        font-size: 48px;
+    }
+}
+
+
+
+
 
 
 .section-contacts {
