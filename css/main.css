@@ -357,6 +357,12 @@ p {
     padding-bottom: 50px;
 }
 
+@media screen and (min-width: 1440px) {
+    .softcaps-section {
+        padding-top: 60px;
+    }
+}
+
 .softcaps-bg {
     background: linear-gradient(to right,#D12A2A, #0B5FC0);
     position: relative;
@@ -377,6 +383,12 @@ p {
     margin-bottom: 30px;
 }
 
+@media screen and (min-width: 1440px) {
+    .softcaps-title-box {
+        margin-bottom: 60px;
+    }
+}
+
 .softcaps-title {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -388,6 +400,13 @@ p {
     padding-left: 20px;
 }
 
+@media screen and (min-width: 1024px) {
+    .softcaps-title {
+        width: 469px;
+        height: 59px;
+    }
+}
+
 .softcaps-title-text {
     font-family: var(--main-font);
     font-weight: 700;
@@ -396,15 +415,78 @@ p {
     color: #fff;
 }
 
+@media screen and (min-width: 1024px) {
+    .softcaps-title-text {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .softcaps-tumb {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1919px) {
+    .softcaps-tumb {
+        justify-content: space-between;
+    }
+}
+
 .softcaps-main-img {
     padding-right: 20px;
     margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    .softcaps-main-img {
+        padding-right: 0;
+        width: 599px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .softcaps-main-img {
+        width: 799px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .softcaps-main-img {
+        width: 1149px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1919px) {
+    .softcaps-tumb-position {
+        margin-right: 100px;
+    }
 }
 
 .softcaps-img {
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .softcaps-img {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .softcaps-img {
+        width: 428px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
 }
 
 .softcaps-text {
@@ -417,6 +499,18 @@ p {
     margin-bottom: 30px;
 }
 
+@media screen and (min-width: 1024px) {
+    .softcaps-text {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .softcaps-text {
+        margin-bottom: 60px;
+    }
+}
+
 .softcaps-text-index {
     font-family: var(--main-font);
     font-weight: 700;
@@ -425,10 +519,22 @@ p {
     color: #fff;
 }
 
+@media screen and (min-width: 1024px) {
+    .softcaps-text-index {
+        font-size: 10px;
+    }
+}
+
 .softcaps-btn-box {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+    .softcaps-btn-box {
+        justify-content: end;
+    }
 }
 
 .softcaps-manual-btn {
@@ -445,12 +551,25 @@ p {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .softcaps-manual-btn {
+        width: 178px;
+        height: 58px;
+    }
+}
+
 .softcaps-manual-btn-text {
     font-family: var(--second-font);
     font-weight: 700;
     font-size: 15px;
     letter-spacing: 0.02em;
     color: #000;
+}
+
+@media screen and (min-width: 1024px) {
+    .softcaps-manual-btn-text {
+        font-size: 18px;
+    }
 }
 
 .softcaps-details-btn {
@@ -468,12 +587,25 @@ p {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .softcaps-details-btn {
+        width: 178px;
+        height: 58px;
+    }
+}
+
 .softcaps-details-btn-text {
     font-family: var(--second-font);
     font-weight: 700;
     font-size: 15px;
     letter-spacing: 0.02em;
     color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    .softcaps-details-btn-text {
+        font-size: 18px;
+    }
 }
 
 .softcaps-footnote {
@@ -489,10 +621,18 @@ p {
     padding-right: 10px;
 }
 
+@media screen and (min-width: 1024px) {
+    .softcaps-footnote {
+        font-size: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 .softcaps-footnote-index {
     font-family: var(--main-font);
     font-weight: 400;
-    font-size: 6px;
+    font-size: 10px;
     letter-spacing: 0.02em;
     color: #fff;
 }
