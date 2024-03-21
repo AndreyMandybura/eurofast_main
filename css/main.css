@@ -353,7 +353,7 @@ p {
 }
 
 .softcaps-section {
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 
@@ -374,7 +374,7 @@ p {
 .softcaps-title-box {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .softcaps-title {
@@ -398,7 +398,7 @@ p {
 
 .softcaps-main-img {
     padding-right: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .softcaps-img {
