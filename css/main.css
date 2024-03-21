@@ -352,6 +352,176 @@ p {
     }
 }
 
+.softcaps-section {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.softcaps-bg {
+    background: linear-gradient(to right,#D12A2A, #0B5FC0);
+    position: relative;
+}
+
+.softcaps-bg-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    z-index: 0;
+    height: 90px;
+}
+
+.softcaps-title-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.softcaps-title {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(255, 255, 255, 0.2);
+    width: 252px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.softcaps-title-text {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.softcaps-main-img {
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+
+.softcaps-img {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.softcaps-text {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.softcaps-text-index {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 6px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.softcaps-btn-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.softcaps-manual-btn {
+    width: 120px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 12.2px;
+    border: none;
+}
+
+@media screen and (min-width: 375px) {
+    .softcaps-manual-btn {
+        width: 160px;
+    }
+}
+
+.softcaps-manual-btn-text {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+.softcaps-details-btn {
+    width: 120px;
+    height: 48px;
+    background-color: #D12A2A;
+    border-radius: 12.2px;
+    border: none;
+    margin-left: 12px;
+}
+
+@media screen and (min-width: 375px) {
+    .softcaps-details-btn {
+        width: 160px;
+    }
+}
+
+.softcaps-details-btn-text {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.softcaps-footnote {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 6px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.softcaps-footnote-index {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 6px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
