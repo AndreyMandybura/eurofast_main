@@ -10,10 +10,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Єврофаст</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <header>
+        <div class="header container">
+            <div class="header-box">
+                <a href="./index.html" class="header-logo-link"><img src="./images/eurolifecare_logo.png" alt="" class="header-logo"></a>
+                <button type="button" class="page-header-btn" is-open aria-expanded="false" aria-controls="menu-container"
+                    data-menu-button>
+                    <svg width="52px" height="48px">
+                        <use class="header-menu" href="./images/svg/header_menu.svg#2"></use>
+                        <use class="header-close-menu" href="./images/svg/header_close_menu.svg#3"></use>
+                    </svg>
+                </button>
+                <div class="menu-container" is-open id="menu-container" data-menu>
+                    <ul class="menu-list list">
+                        <li class="menu-list-item"><a href="#softcaps" class="menu-list-link txt-deco">Єврофаст Софткапс</a></li>
+                        <li class="menu-list-item"><a href="#combi" class="menu-list-link txt-deco">Єврофаст Комбі</a></li>
+                        <li class="menu-list-item"><a href="#gel" class="menu-list-link txt-deco">Єврофаст Плюс гель</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
     <main>
         <section class="container hero-bg">
             <div class="hero-position">
@@ -40,7 +64,7 @@
                 <img src="./images/arrow.png" class="choice-img" alt="">
             </div>
         </section>
-        <section class="container softcaps-section softcaps-bg">
+        <section class="container softcaps-section softcaps-bg" id="softcaps">
             <img src="./images/softcaps_bottom_bg.png" class="softcaps-bg-img" alt="">
             <div class="softcaps-title-box">
                 <div class="softcaps-title">
@@ -71,7 +95,7 @@
                 Muscle-Contraction Headache. Bernard P. Schachtel M.D., William R. Thoden M.A.
             </p>
         </section>
-        <section class="container combi-section combi-bg">
+        <section class="container combi-section combi-bg" id="combi">
             <img src="./images/softcaps_bottom_bg.png" class="combi-bg-img" alt="">
             <div class="combi-title-box">
                 <div class="combi-title">
@@ -102,7 +126,7 @@
                 дія ібупрофену або парацетамолу, застосованих окремо.
             </p>
         </section>
-        <section class="container gel-section gel-bg">
+        <section class="container gel-section gel-bg" id="gel">
             <img src="./images/softcaps_bottom_bg.png" class="gel-bg-img" alt="">
             <div class="gel-title-box">
                 <div class="gel-title">
@@ -129,10 +153,6 @@
                 </div>
             </div>
         </section>
-        
-
-
-        
         <section class="container">
             <div class="section-contacts">
                 <p class="contacts-title">Виникли запитання?</p>
@@ -165,7 +185,10 @@
         </section>
     </main>
     <footer class="container">
-        <div class="footer-box"></div>
+        <div class="footer-box">
+            <p class="footer-text">Сreated by Level Media 2024</p>
+        </div>
     </footer>
+    <script src="./mobile-menu.js"></script>
 </body>
 </html>
