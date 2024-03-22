@@ -956,6 +956,306 @@ p {
     }
 }
 
+.gel-section {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width: 1440px) {
+    .gel-section {
+        padding-top: 60px;
+    }
+}
+
+.gel-bg {
+    background: linear-gradient(to right, #D12A2A, #0B5FC0);
+    position: relative;
+}
+
+.gel-bg-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    z-index: 0;
+    height: 90px;
+}
+
+.gel-title-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+    .gel-title-box {
+        margin-bottom: 60px;
+    }
+}
+
+.gel-title {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(255, 255, 255, 0.2);
+    width: 252px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-title {
+        width: 469px;
+        height: 59px;
+    }
+}
+
+.gel-title-text {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-title-text {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-tumb {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1919px) {
+    .gel-tumb {
+        justify-content: space-between;
+    }
+}
+
+.gel-main-img {
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-main-img {
+        padding-right: 0;
+        width: 599px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .gel-main-img {
+        width: 799px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .gel-main-img {
+        width: 1149px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1919px) {
+    .gel-tumb-position {
+        margin-right: 100px;
+    }
+}
+
+.gel-img {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .gel-img {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .gel-img {
+        width: 428px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .gel-img {
+        width: 556px;
+    }
+}
+
+.gel-text {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-text {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .gel-text {
+        margin-bottom: 60px;
+        text-align: start;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .gel-text {
+        padding-left: 70px;
+        padding-right: 100px;
+    }
+}
+
+.gel-btn-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+    .gel-btn-box {
+        justify-content: end;
+        margin-right: 105px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .gel-btn-box {
+        margin-right: 145px;
+    }
+}
+
+.gel-manual-btn {
+    width: 120px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 12.2px;
+    border: none;
+}
+
+@media screen and (min-width: 375px) {
+    .gel-manual-btn {
+        width: 160px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-manual-btn {
+        width: 178px;
+        height: 58px;
+    }
+}
+
+.gel-manual-btn-text {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-manual-btn-text {
+        font-size: 18px;
+    }
+}
+
+.gel-details-btn {
+    width: 120px;
+    height: 48px;
+    background-color: #D12A2A;
+    border-radius: 12.2px;
+    border: none;
+    margin-left: 12px;
+}
+
+@media screen and (min-width: 375px) {
+    .gel-details-btn {
+        width: 160px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-details-btn {
+        width: 178px;
+        height: 58px;
+    }
+}
+
+.gel-details-btn-text {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-details-btn-text {
+        font-size: 18px;
+    }
+}
+
+.gel-footnote {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 6px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-footnote {
+        font-size: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.gel-footnote-index {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 6px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    .gel-footnote-index {
+        font-size: 10px;
+    }
+}
+
 
 
 
