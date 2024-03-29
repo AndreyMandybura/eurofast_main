@@ -524,8 +524,8 @@ p {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     background-color: rgb(255, 255, 255, 0.2);
-    width: 252px;
-    height: 32px;
+    width: 270px;
+    height: 40px;
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -534,21 +534,21 @@ p {
 @media screen and (min-width: 1024px) {
     .softcaps-title {
         width: 469px;
-        height: 59px;
+        height: 70px;
     }
 }
 
 .softcaps-title-text {
     font-family: var(--main-font);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 0.02em;
     color: #fff;
 }
 
 @media screen and (min-width: 1024px) {
     .softcaps-title-text {
-        font-size: 32px;
+        font-size: 38px;
     }
 }
 
@@ -815,8 +815,8 @@ p {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     background-color: rgb(255, 255, 255, 0.2);
-    width: 252px;
-    height: 32px;
+    width: 230px;
+    height: 40px;
     display: flex;
     align-items: center;
     padding-right: 20px;
@@ -825,14 +825,15 @@ p {
 @media screen and (min-width: 1024px) {
     .combi-title {
         width: 469px;
-        height: 59px;
+        height: 70px;
+        padding-right: 30px;
     }
 }
 
 .combi-title-text {
     font-family: var(--main-font);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 0.02em;
     color: #fff;
     margin-left: auto;
@@ -840,7 +841,7 @@ p {
 
 @media screen and (min-width: 1024px) {
     .combi-title-text {
-        font-size: 32px;
+        font-size: 38px;
     }
 }
 
@@ -1128,8 +1129,8 @@ p {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     background-color: rgb(255, 255, 255, 0.2);
-    width: 252px;
-    height: 32px;
+    width: 280px;
+    height: 40px;
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -1138,21 +1139,21 @@ p {
 @media screen and (min-width: 1024px) {
     .gel-title {
         width: 469px;
-        height: 59px;
+        height: 70px;
     }
 }
 
 .gel-title-text {
     font-family: var(--main-font);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 0.02em;
     color: #fff;
 }
 
 @media screen and (min-width: 1024px) {
     .gel-title-text {
-        font-size: 32px;
+        font-size: 38px;
     }
 }
 
@@ -1525,7 +1526,7 @@ p {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 120px;
 }
 
 .warning-logo-box {
@@ -1534,6 +1535,7 @@ p {
         align-items: center;
         padding-left: 100px;
         padding-right: 100px;
+        padding-bottom:70px;
     }
 }
 
@@ -1557,7 +1559,7 @@ p {
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #8f8f8f;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 
     @media screen and (min-width: 1024px) {
         margin-left: 10px;
